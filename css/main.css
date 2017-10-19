@@ -3,7 +3,6 @@
   animation: eyes 3s linear infinite;
 }
 
-
 @keyframes eyes {
 
   0% {
@@ -25,12 +24,11 @@
   100% {
     transform: translateX(0);
   }
-
 }
 
 #ears {
- transform: translateY(0);
- transition: all .5s linear;
+  transform: translateY(0);
+  transition: all .5s linear;
 }
 
 #bear:hover #ears {
